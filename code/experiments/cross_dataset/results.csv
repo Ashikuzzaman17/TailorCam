@@ -1,0 +1,79 @@
+dataset,model,mode,measurement,people,raw MAE,MAE after offset,accuracy after offset
+BODY-fit test (558),Silhouette CNN (BodyM),with weight,chest,558,3.072,2.911,97.109
+BODY-fit test (558),Silhouette CNN (BodyM),with weight,waist,542,3.949,2.826,96.766
+BODY-fit test (558),Silhouette CNN (BodyM),with weight,hip,558,2.606,2.123,97.954
+BODY-fit test (558),Silhouette CNN (BodyM),with weight,thigh,558,4.569,1.544,97.386
+BODY-fit test (558),Silhouette CNN (BodyM),with weight,arm / sleeve,528,10.84,2.167,96.121
+BODY-fit test (558),Silhouette CNN (BodyM),with weight,shoulder,558,5.684,2.543,93.31
+BODY-fit test (558),BodyM prior,with weight,chest,558,3.74,3.699,96.316
+BODY-fit test (558),BodyM prior,with weight,waist,542,4.528,4.07,95.344
+BODY-fit test (558),BodyM prior,with weight,hip,558,2.593,2.443,97.644
+BODY-fit test (558),BodyM prior,with weight,thigh,558,4.268,2.338,96.032
+BODY-fit test (558),BodyM prior,with weight,arm / sleeve,528,10.286,2.331,95.846
+BODY-fit test (558),BodyM prior,with weight,shoulder,558,6.458,2.638,93.072
+BODY-fit test (558),ANSUR prior,with weight,chest,558,4.116,3.567,96.462
+BODY-fit test (558),ANSUR prior,with weight,waist,542,4.563,4.389,94.997
+BODY-fit test (558),ANSUR prior,with weight,hip,558,2.919,2.929,97.18
+BODY-fit test (558),ANSUR prior,with weight,thigh,558,4.312,2.882,95.097
+BODY-fit test (558),ANSUR prior,with weight,arm / sleeve,528,3.216,2.272,95.963
+BODY-fit test (558),ANSUR prior,with weight,shoulder,558,4.145,2.811,92.641
+BODY-fit test (558),Silhouette CNN (BodyM),no weight,chest,558,4.201,4.197,95.847
+BODY-fit test (558),Silhouette CNN (BodyM),no weight,waist,542,5.041,4.793,94.491
+BODY-fit test (558),Silhouette CNN (BodyM),no weight,hip,558,3.565,3.4,96.729
+BODY-fit test (558),Silhouette CNN (BodyM),no weight,thigh,558,4.909,2.322,96.047
+BODY-fit test (558),Silhouette CNN (BodyM),no weight,arm / sleeve,528,10.827,2.167,96.122
+BODY-fit test (558),Silhouette CNN (BodyM),no weight,shoulder,558,5.899,2.719,92.881
+BODY-fit test (558),BodyM prior,no weight,chest,558,7.802,7.929,92.212
+BODY-fit test (558),BodyM prior,no weight,waist,542,9.633,9.677,89.011
+BODY-fit test (558),BodyM prior,no weight,hip,558,6.025,6.078,94.182
+BODY-fit test (558),BodyM prior,no weight,thigh,558,5.746,4.147,92.993
+BODY-fit test (558),BodyM prior,no weight,arm / sleeve,528,10.235,2.329,95.853
+BODY-fit test (558),BodyM prior,no weight,shoulder,558,6.804,3.132,91.886
+BODY-fit test (558),ANSUR prior,no weight,chest,558,7.914,7.856,92.318
+BODY-fit test (558),ANSUR prior,no weight,waist,542,9.748,9.713,88.974
+BODY-fit test (558),ANSUR prior,no weight,hip,558,6.065,6.101,94.153
+BODY-fit test (558),ANSUR prior,no weight,thigh,558,5.327,4.148,92.994
+BODY-fit test (558),ANSUR prior,no weight,arm / sleeve,528,3.204,2.26,95.987
+BODY-fit test (558),ANSUR prior,no weight,shoulder,558,4.322,3.142,91.86
+NOMO-3D (356),Silhouette CNN (BodyM),no weight,chest,356,3.771,3.756,96.174
+NOMO-3D (356),Silhouette CNN (BodyM),no weight,waist,356,4.556,3.792,95.434
+NOMO-3D (356),Silhouette CNN (BodyM),no weight,hip,356,3.188,2.791,97.197
+NOMO-3D (356),Silhouette CNN (BodyM),no weight,thigh,356,3.994,2.051,96.324
+NOMO-3D (356),Silhouette CNN (BodyM),no weight,arm / sleeve,356,9.811,1.728,96.967
+NOMO-3D (356),Silhouette CNN (BodyM),no weight,shoulder,356,6.283,1.904,95.518
+NOMO-3D (356),BodyM prior,no weight,chest,356,6.045,6.357,93.593
+NOMO-3D (356),BodyM prior,no weight,waist,356,7.76,7.983,90.485
+NOMO-3D (356),BodyM prior,no weight,hip,356,4.761,4.905,95.068
+NOMO-3D (356),BodyM prior,no weight,thigh,356,4.742,3.672,93.479
+NOMO-3D (356),BodyM prior,no weight,arm / sleeve,356,9.979,1.827,96.843
+NOMO-3D (356),BodyM prior,no weight,shoulder,356,7.387,2.194,94.853
+NOMO-3D (356),ANSUR prior,no weight,chest,356,5.85,6.356,93.59
+NOMO-3D (356),ANSUR prior,no weight,waist,356,8.112,7.99,90.475
+NOMO-3D (356),ANSUR prior,no weight,hip,356,4.835,4.938,95.037
+NOMO-3D (356),ANSUR prior,no weight,thigh,356,5.417,3.691,93.434
+NOMO-3D (356),ANSUR prior,no weight,arm / sleeve,356,2.625,1.79,96.904
+NOMO-3D (356),ANSUR prior,no weight,shoulder,356,4.096,2.12,94.991
+BodyM testA (1684 pairs),BODY-fit network,with weight,chest,1684,2.75,2.457,97.539
+BodyM testA (1684 pairs),BODY-fit network,with weight,waist,1684,2.211,2.542,96.96
+BodyM testA (1684 pairs),BODY-fit network,with weight,hip,1684,2.941,2.367,97.575
+BodyM testA (1684 pairs),BODY-fit network,with weight,thigh,1684,6.274,1.582,97.005
+BodyM testA (1684 pairs),BODY-fit network,with weight,arm / sleeve,1684,11.263,1.714,96.54
+BodyM testA (1684 pairs),BODY-fit network,with weight,shoulder,1684,6.973,1.35,96.13
+BodyM testB (1160 pairs),BODY-fit network,with weight,chest,1160,3.236,3.242,96.8
+BodyM testB (1160 pairs),BODY-fit network,with weight,waist,1160,3.699,3.391,96.054
+BodyM testB (1160 pairs),BODY-fit network,with weight,hip,1160,2.948,2.767,97.337
+BodyM testB (1160 pairs),BODY-fit network,with weight,thigh,1160,6.362,1.923,96.438
+BodyM testB (1160 pairs),BODY-fit network,with weight,arm / sleeve,1160,10.166,1.82,96.254
+BodyM testB (1160 pairs),BODY-fit network,with weight,shoulder,1160,7.259,1.625,95.328
+BodyM testA (1684 pairs),BODY-fit network,no weight,chest,1684,7.881,5.048,94.864
+BodyM testA (1684 pairs),BODY-fit network,no weight,waist,1684,6.542,5.157,93.604
+BodyM testA (1684 pairs),BODY-fit network,no weight,hip,1684,7.275,4.465,95.393
+BodyM testA (1684 pairs),BODY-fit network,no weight,thigh,1684,8.913,2.495,95.268
+BodyM testA (1684 pairs),BODY-fit network,no weight,arm / sleeve,1684,11.277,1.662,96.648
+BodyM testA (1684 pairs),BODY-fit network,no weight,shoulder,1684,8.485,1.464,95.81
+BodyM testB (1160 pairs),BODY-fit network,no weight,chest,1160,6.751,5.32,94.823
+BodyM testB (1160 pairs),BODY-fit network,no weight,waist,1160,5.991,5.476,93.689
+BodyM testB (1160 pairs),BODY-fit network,no weight,hip,1160,6.557,5.017,95.211
+BodyM testB (1160 pairs),BODY-fit network,no weight,thigh,1160,8.311,2.952,94.592
+BodyM testB (1160 pairs),BODY-fit network,no weight,arm / sleeve,1160,10.277,1.715,96.486
+BodyM testB (1160 pairs),BODY-fit network,no weight,shoulder,1160,8.187,1.587,95.387

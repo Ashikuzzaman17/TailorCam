@@ -1,0 +1,44 @@
+model,measurement,people,MAE,accuracy,bias,within 2 cm %
+HMR,chest,30,6.702,92.783,1.363,13.333
+HMR,waist,26,8.777,89.526,-2.114,7.692
+HMR,hip,30,7.451,92.588,-2.156,16.667
+HMR,neck,25,2.197,93.952,0.01,60.0
+HMR,thigh,30,4.646,91.499,-0.976,36.667
+HMR,sleeve_length,28,3.571,93.462,-0.009,35.714
+HMR,shoulder_width,16,4.041,90.756,-1.034,25.0
+SHAPY,chest,30,5.387,94.377,-0.287,20.0
+SHAPY,waist,26,8.285,90.067,-1.462,11.538
+SHAPY,hip,30,7.119,93.002,-3.245,10.0
+CameraHMR,chest,30,3.5,96.293,0.287,33.333
+CameraHMR,waist,26,6.514,92.433,-2.737,7.692
+CameraHMR,hip,30,4.933,95.007,0.12,33.333
+CameraHMR,neck,25,1.51,95.828,0.004,76.0
+CameraHMR,thigh,30,3.703,93.109,0.05,23.333
+CameraHMR,sleeve_length,28,3.156,94.26,-0.009,35.714
+CameraHMR,shoulder_width,16,2.302,94.594,-0.031,56.25
+Silhouette CNN,chest,30,7.19,92.091,3.562,23.333
+Silhouette CNN,waist,26,8.762,88.613,3.8,19.231
+Silhouette CNN,hip,30,6.352,93.358,1.494,13.333
+Silhouette CNN,thigh,30,3.457,93.53,-0.197,30.0
+Silhouette CNN,sleeve_length,28,3.152,94.247,-0.007,42.857
+Silhouette CNN,shoulder_width,16,4.094,90.359,-0.021,18.75
+BodyM prior,chest,30,6.902,92.361,3.142,20.0
+BodyM prior,waist,26,8.827,88.547,3.865,19.231
+BodyM prior,hip,30,7.004,92.799,1.54,16.667
+BodyM prior,thigh,30,4.063,92.561,-0.61,30.0
+BodyM prior,sleeve_length,28,3.372,93.836,-0.009,35.714
+BodyM prior,shoulder_width,16,3.926,90.773,-0.02,25.0
+ANSUR prior,chest,30,5.669,93.959,0.752,13.333
+ANSUR prior,waist,26,7.501,90.947,-0.012,11.538
+ANSUR prior,hip,30,6.615,93.141,2.37,23.333
+ANSUR prior,neck,25,1.77,95.111,0.009,68.0
+ANSUR prior,thigh,30,4.148,92.334,-0.0,30.0
+ANSUR prior,sleeve_length,28,3.293,93.846,1.193,32.143
+ANSUR prior,shoulder_width,16,3.351,92.176,-0.025,31.25
+TailorCam (combined),chest,30,3.636,96.16,0.445,30.0
+TailorCam (combined),waist,26,6.528,92.402,-1.878,3.846
+TailorCam (combined),hip,30,4.625,95.411,-0.777,16.667
+TailorCam (combined),neck,25,1.505,95.835,0.03,72.0
+TailorCam (combined),thigh,30,3.903,92.766,-0.164,20.0
+TailorCam (combined),sleeve_length,28,3.547,93.568,-0.12,28.571
+TailorCam (combined),shoulder_width,16,4.041,90.756,-1.034,25.0

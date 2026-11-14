@@ -1,0 +1,54 @@
+{
+ "with_weight": {},
+ "no_weight": {
+  "chest": {
+   "offset": 1.46,
+   "n": 10,
+   "mae_before": 3.68,
+   "mae_after_loo": 4.26,
+   "used": false
+  },
+  "hip": {
+   "offset": 0.16,
+   "n": 10,
+   "mae_before": 3.96,
+   "mae_after_loo": 4.33,
+   "used": false
+  },
+  "neck": {
+   "offset": -0.42,
+   "n": 10,
+   "mae_before": 1.34,
+   "mae_after_loo": 1.54,
+   "used": false
+  },
+  "shoulder_width": {
+   "offset": 4.45,
+   "n": 10,
+   "mae_before": 4.45,
+   "mae_after_loo": 1.68,
+   "used": true
+  },
+  "sleeve_length": {
+   "offset": -7.37,
+   "n": 10,
+   "mae_before": 7.37,
+   "mae_after_loo": 2.06,
+   "used": true
+  },
+  "thigh": {
+   "offset": -6.15,
+   "n": 10,
+   "mae_before": 6.15,
+   "mae_after_loo": 1.27,
+   "used": true
+  },
+  "waist": {
+   "offset": 8.76,
+   "n": 10,
+   "mae_before": 9.5,
+   "mae_after_loo": 6.53,
+   "used": true
+  }
+ }
+}

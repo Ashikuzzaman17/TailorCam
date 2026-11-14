@@ -1,0 +1,12 @@
+Copyright (c) 2026 Md Ashikuzzaman. All rights reserved.
+
+This repository is published so that its code can be read and reviewed, for example for
+academic assessment. No permission is granted to use, copy, modify, distribute or sell this
+code, in whole or in part, without written permission from the copyright holder.
+
+Third-party components keep their own licences:
+- pose_landmarker.task (Google MediaPipe): Apache License 2.0.
+- HMR, SHAPY, CameraHMR, SMPL and SMPL-X: see their authors' licences; none of their model
+  files are included here.
+- Datasets (Amazon BodyM, ANSUR II, Unidata samples, HBW, BEDLAM, BODY-fit, NOMO-3D): not
+  included; see each dataset's licence.

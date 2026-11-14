@@ -1,0 +1,51 @@
+# TailorCam: what stays OUT of GitHub. With these rules a plain
+#   git add -A && git commit && git push
+# is always safe.
+
+# ── big local folders (see code/paths.py) ──
+dataset/
+code/assets/
+code/app_data/
+data/
+
+# ── Python / editor leftovers ──
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+*.log
+
+# ── customer data (privacy) ──
+code/tailorcam.db
+code/profiles/
+
+# ── photos of real people and finished reports (dataset licences, privacy) ──
+code/reports/
+code/experiments/**/example_silhouettes.png
+# notebooks: the .py versions hold the same code; the .ipynb files carry image outputs
+*.ipynb
+# own test people: names next to body measurements
+code/experiments/odjag/*.csv
+# combined test: per-person tape values (dataset licence, privacy)
+code/experiments/combined/people.csv
+
+# ── model files that must not or need not be shared ──
+# SMPL / SMPL-X body models: licence forbids redistribution (download from smpl.is.tue.mpg.de)
+code/model/smpl_weights/
+code/model/hmr/smpl_hmr.npz
+# trained but not used by the app
+code/model/bodyfit/*.pt
+code/model/bodym/bodym_net.pt
+
+# ── temporary files written by experiments ──
+code/experiments/**/_*.json
+# per-person dataset values (dataset licence)
+code/experiments/photo_to_amazon/predictions.csv
+
+# ── kept out of the public repository ──
+# trained weights (built from licensed models and data; see README to recreate them)
+code/model/hmr/hmr_weights.pt
+code/model/bodym/*.pt
+# app scan records and the local settings file
+code/model/training_data.csv
+code/tailorcam_config.json
