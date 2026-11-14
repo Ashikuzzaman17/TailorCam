@@ -5,8 +5,7 @@ uploaded), enters their height and, if known, their weight, and TailorCam gives 
 shoulder and sleeve measurements, clothing sizes and a 3D body. Every value is marked *Camera OK* or *Check with tape*.
 
 Capstone project (CSE400), Department of Computer Science and Engineering, East West University, Dhaka.
-**Author:** Md Ashikuzzaman (2022-3-60-101) · **Supervisor:** Dr. Mohammad Mahdi Hasan
-
+**Author:** Md Ashikuzzaman 
 > **Status:** research prototype (Windows desktop app). The measuring engine is complete and tested; a
 > server-based product for shops is the next step.
 
