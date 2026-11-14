@@ -7,6 +7,13 @@ shoulder and sleeve measurements, clothing sizes and a 3D body. Every value is m
 Capstone project (CSE400), Department of Computer Science and Engineering, East West University, Dhaka.
 **Author:** Md Ashikuzzaman (2022-3-60-101) · **Supervisor:** Dr. Mohammad Mahdi Hasan
 
+> **Status:** research prototype (Windows desktop app). The measuring engine is complete and tested; a
+> server-based product for shops is the next step.
+
+![Results screen](docs/app_results.png)
+
+*Results screen (demo customer): 3D body, seven measurements with tape labels, and sizes.*
+
 ---
 
 ## How it works
@@ -59,6 +66,12 @@ code/                     everything the program needs
 docs/                     images for this page
 ```
 
+## Requirements
+
+- Windows 10 or 11, Python 3.11
+- An NVIDIA GPU is strongly recommended (development used an RTX 4070); without one the 3D models are very slow
+- A webcam, or front and side photos to upload
+
 ## Setup
 
 ```
@@ -82,6 +95,12 @@ Some large or licensed files are not in this repository. Put them here before ru
 The app still runs without CameraHMR or SHAPY; it then uses the remaining models. `code/paths.py` explains how to
 keep the datasets on another drive.
 
+## Clothing sizes
+
+![Size guide](docs/app_size_guide.png)
+
+Sizes are shown for several countries (BD, US, UK, EU, JP, CN, IN), with the garment measurement including ease.
+
 ## Adapting to a shop
 
 1. Scan customers as usual and enter the real tape values with the **Feedback** button.
@@ -89,6 +108,10 @@ keep the datasets on another drive.
 
 The app then corrects only the body parts where this lowered the error. Delete
 `code/model/calibration/shop_offset.json` to switch it off.
+
+## Citation
+
+If you refer to this work, please cite it as in [CITATION.cff](CITATION.cff).
 
 ## Licence
 
